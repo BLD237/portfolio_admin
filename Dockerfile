@@ -5,8 +5,8 @@ WORKDIR /app
 # Install build dependencies if needed
 RUN apk add --no-cache libc6-compat
 
-COPY package.json package-lock.json ./
-RUN npm ci
+COPY package.json ./
+RUN npm install
 
 COPY . .
 
