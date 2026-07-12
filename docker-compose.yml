@@ -6,8 +6,9 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        - NEXT_PUBLIC_API_URL=http://localhost:8000/api
+        - NEXT_PUBLIC_API_URL=https://api.muforbelmond.tech/api
     container_name: portfolio-admin
     restart: always
     ports:
-      - "3001:3001"
+      - "3081:3081"
+
