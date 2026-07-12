@@ -1,0 +1,21 @@
+# Dependency directory
+node_modules/
+
+# Next.js build output
+.next/
+out/
+
+# Environment configurations
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# OS files
+.DS_Store
+
+# IDE configurations
+.vscode/
+.idea/

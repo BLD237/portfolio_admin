@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  admin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_API_URL=http://localhost:8000/api
+    container_name: portfolio-admin
+    restart: always
+    ports:
+      - "3001:3001"
