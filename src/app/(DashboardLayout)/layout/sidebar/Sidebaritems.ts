@@ -42,6 +42,24 @@ const SidebarContent: MenuItem[] = [
         url: '/portfolio/projects',
       },
       {
+        name: 'Services',
+        icon: 'solar:hand-money-linear',
+        id: uniqueId(),
+        url: '/portfolio/services',
+      },
+      {
+        name: 'Testimonials',
+        icon: 'solar:chat-round-like-linear',
+        id: uniqueId(),
+        url: '/portfolio/testimonials',
+      },
+      {
+        name: 'Credentials',
+        icon: 'solar:medal-ribbons-star-linear',
+        id: uniqueId(),
+        url: '/portfolio/credentials',
+      },
+      {
         name: 'Blog',
         icon: 'solar:notebook-linear',
         id: uniqueId(),

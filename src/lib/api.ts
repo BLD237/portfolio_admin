@@ -1,6 +1,16 @@
 'use client'
 
-export type PortfolioModule = 'projects' | 'blog' | 'articles' | 'gallery' | 'experience' | 'skills' | 'profile'
+export type PortfolioModule =
+  | 'projects'
+  | 'blog'
+  | 'articles'
+  | 'gallery'
+  | 'experience'
+  | 'skills'
+  | 'services'
+  | 'testimonials'
+  | 'credentials'
+  | 'profile'
 
 export const portfolioModules: { key: PortfolioModule; label: string; description: string }[] = [
   { key: 'projects', label: 'Projects', description: 'Software builds, experiments, and case studies.' },
@@ -9,6 +19,9 @@ export const portfolioModules: { key: PortfolioModule; label: string; descriptio
   { key: 'gallery', label: 'Gallery', description: 'Images, screenshots, certificates, and visual proof.' },
   { key: 'experience', label: 'Journey', description: 'Professional Signal and Career Roadmap.' },
   { key: 'skills', label: 'Stack / Skills', description: 'Manage languages, tools, and technical skill groups.' },
+  { key: 'services', label: 'Services', description: 'Offers, delivery packages, and hire-me positioning.' },
+  { key: 'testimonials', label: 'Testimonials', description: 'Client proof, collaborator quotes, and trust signals.' },
+  { key: 'credentials', label: 'Credentials', description: 'Certifications, awards, education, and proof of expertise.' },
   { key: 'profile', label: 'Profile Settings', description: 'Manage name, title, profile image, email and links.' },
 ]
 
