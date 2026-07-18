@@ -25,7 +25,7 @@ export const portfolioModules: { key: PortfolioModule; label: string; descriptio
   { key: 'profile', label: 'Profile Settings', description: 'Manage name, title, profile image, email and links.' },
 ]
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000/api'
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8085/api'
 const TOKEN_KEY = 'portfolio_admin_token'
 
 export type ContentItem = {
