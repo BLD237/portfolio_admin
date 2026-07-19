@@ -127,7 +127,7 @@ function ContentManager({ module }: { module: PortfolioModule }) {
             status: 'published',
             sort_order: 1,
             image_url: 'https://avatars.githubusercontent.com/u/161585619?v=4',
-            external_url: 'muforbelmond20@gmail.com',
+            external_url: 'info@muforbelmond.tech',
             tags: [],
             metadata: {
               company: 'SKYE8',
